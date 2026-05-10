@@ -1,0 +1,9 @@
+run job valuewriter to generate txt files that determines the parameters for running in batch in server of osg
+
+example 1, example 2, example 3 is the main file that generates the particles for respective examples.
+The parameter ini_multiplier determines the initial distribution to be a uniform distribution between (-ini_multiplier, ini_multiplier)
+
+once obtained the data, run example 1 plotter and example 2 plotter to get the plot result for examples.
+Call function generative_plot in utlities/plots.py to generate the image plot of example 3
+
+run fid_score to get the fid score plot for example 3
